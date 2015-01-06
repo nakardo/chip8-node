@@ -1,0 +1,25 @@
+{
+  "name": "chip8-node",
+  "version": "0.1.0",
+  "description": "Modular and extensible Chip-8 emulator for node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "chip8",
+    "chip-8",
+    "emulator"
+  ],
+  "author": "Diego Acosta",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^1.1.6"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-browserify": "^3.2.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-jscs": "^1.1.0"
+  }
+}

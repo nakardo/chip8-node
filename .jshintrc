@@ -1,0 +1,23 @@
+{
+    "curly"         : true,     // true: Require {} for every new block or scope
+    "eqeqeq"        : true,     // true: Require triple equals (===) for comparison
+    "latedef"       : "nofunc", // true: Require variables/functions to be defined before being used
+    "newcap"        : true,     // true: Require capitalization of all constructor functions e.g. `new F()`
+    "undef"         : true,     // true: Require all non-global variables to be declared (prevents global leaks)
+    "unused"        : true,     // true: Require all defined variables be used
+    "maxdepth"      : 4,        // {int} Max depth of nested blocks (within functions)
+    "maxlen"        : 80,       // {int} Max number of characters per line
+    "evil"          : false,    // true: Tolerate use of `eval` and `new Function()`
+    "laxcomma"      : true,     // true: Tolerate comma-first style coding
+    "node"          : true,     // Node.js
+
+    "globals"       : {
+      /* mocha */
+      "describe"    : false,
+      "it"          : false,
+      "before"      : false,
+      "beforeEach"  : false,
+      "after"       : false,
+      "afterEach"   : false
+    }
+}
